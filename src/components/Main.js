@@ -1,29 +1,28 @@
 import React from 'react'
+import { useState } from 'react'
 
 function Main() {
+
+        const [active,setActive] = useState("For You");
+
   return (
-    <div>
+    <>
       <div
-            className="inline-block w-4/5 h-screen overflow-y-scroll border-r-2 second lg:w-2/5 md:w-3/5 border-zinc-700 no-scrollbar">
-            <div className="sticky top-0 w-full bg-opacity-50 border-b-2 border-zinc-700 bg-black ">
-                <div className="inline-block py-3 text-center border-0 w-3/7 hover:bg-zinc-800 hover:bg-opacity-60">
-                    <a href="#" className="px-1 py-3 rounded-sm focus:border-b-4 border-sky-500 focus:font-bold">For You</a>
+    className="inline-block w-600 h-full overflow-y-scroll border-r-2 second lg:w-2/5 md:w-3/5 border-zinc-700 no-scrollbar">
+            <div className="sticky top-0 w-full backdrop-blur-sm border-b-2 border-zinc-800 bg-black/70 z-10">
+                <div className="inline-block py-3 text-center border-0 w-1/2 hover:bg-zinc-800 hover:bg-opacity-60">
+                    <a href="#" onClick={()=> setActive("For You")} className={`px-1 py-3 rounded-sm border-sky-500 ${active === "For You"? "border-b-4 font-bold":""}`}>For You</a>
                 </div>
                 <div
-                    className="inline-block py-3 text-center border-0 max-w-96 w-3/7 hover:bg-zinc-800 hover:bg-opacity-60">
+                    className="inline-block py-3 text-center border-0 max-w-96 w-1/2 hover:bg-zinc-800 hover:bg-opacity-60">
                     <a href="#"
-                        className="px-1 py-3 rounded-sm focus:border-b-4 focus:font-bold border-sky-500">Following</a>
-                </div>
-                <div className="inline-block py-3 text-right border-0 size-auto ">
-                    <span className="p-1 px-2 rounded-full hover:bg-zinc-800 hover:bg-opacity-60">
-                        <i className="fa fa-cog" aria-hidden="true"></i>
-                    </span>
+                        className={`px-1 py-3 rounded-sm border-sky-500 ${active === "Following"? "border-b-4 font-bold":""}`} onClick={()=>setActive("Following")}>Following</a>
                 </div>
             </div>
             <div className="main h-screen">
                 <div className=" px-3 border-b-2 border-zinc-600 py-2">
                     <div className="inline-block relative top-0 h-24">
-                        <img src="twitter-clone-pics\tt-profile.jpg" alt="hii" className="rounded-full  size-11 relative top-0"></img>
+                        <img src="https://pbs.twimg.com/profile_images/1663008095105323008/p2C3AkXy_400x400.jpg" alt="hii" className="rounded-full  size-11 relative top-0"></img>
                     </div>
                     <div className="w-5/6 inline-block py-2 relative -top-0 px-2">
                         <div className="inline-block h-full font-normal text-tn text-zinc-500">
@@ -46,9 +45,12 @@ function Main() {
                 </div>
 
             </div>
+            <div>
+                
+            </div>
 
         </div>
-    </div>
+    </>
   )
 }
 

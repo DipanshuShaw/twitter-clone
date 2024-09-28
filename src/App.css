@@ -7,6 +7,21 @@
 @tailwind utilities;
 
 
+.w-600{
+  width:600px;
+}
+
+.text-tn {
+  font-size: 1.37rem;;
+}
+
+.w-3-7 {
+    width: 45.8571429%;
+}
+.w-1-7 {
+    width: 14.2857143%;
+}
+
 html,body{
   padding: 0;
   margin: 0;

@@ -1,9 +1,10 @@
 import React from 'react'
+// import Modi from './src/Images/Narendra-modi.jpg';
 
 function SeacrhBar() {
   return (
     <div>
-      <div className="h-screen px-5 py-2 overflow-y-scroll border-0 md:w-96 max-md:hidden no-scrollbar">
+      <div className="h-screen px-5 py-2 overflow-y-scroll border-0 lg:w-96 max-lg:hidden no-scrollbar">
             <div className="w-full">
                 <input type="search" name="" id=""
                     className="w-full p-2.5 px-16 bg-gray-500 bg-opacity-30 rounded-full placeholder-zinc-500 font-light"
@@ -34,7 +35,7 @@ function SeacrhBar() {
                     <span className="text-sm text-zinc-500">
                         Cricket &sdot; Trending
                     </span>
-                    <span className="relative -right-44"><i className="fa-solid fa-ellipsis"></i></span>
+                    <span className="relative -right-48"><i className="fa-solid fa-ellipsis"></i></span>
 
                     <div className="font-semibold">
                         #ThalaForAReason
@@ -47,7 +48,7 @@ function SeacrhBar() {
                     <span className="text-sm text-zinc-500">
                         Entertainment &sdot; Trending
                     </span>
-                    <span className="relative -right-32"><i className="fa-solid fa-ellipsis"></i></span>
+                    <span className="relative -right-36"><i className="fa-solid fa-ellipsis"></i></span>
 
                     <div className="font-semibold">
                         #RomanVsRhodes
@@ -60,7 +61,7 @@ function SeacrhBar() {
                     <span className="text-sm text-zinc-500">
                         Shopping &sdot; Trending
                     </span>
-                    <span className="relative -right-40"><i className="fa-solid fa-ellipsis"></i></span>
+                    <span className="relative -right-44"><i className="fa-solid fa-ellipsis"></i></span>
 
                     <div className="font-semibold">
                         #NiggerOnSale
@@ -94,7 +95,7 @@ function SeacrhBar() {
                 <div className="flex px-2 pt-6 transition-all duration-200 ease-in-out hover:bg-zinc-800">
                     <div className="w-56">
                         <div className="inline-block w-12 h-12 rounded-full">
-                            <img src="twitter-clone-pics\tt-profile.jpg" alt="" className="rounded-full"></img>
+                            <img src="https://pbs.twimg.com/profile_images/1663008095105323008/p2C3AkXy_400x400.jpg" alt="" className="rounded-full"></img>
                         </div>
                         <div className="relative hidden px-2 -top-1 lg:inline-block">
                             <span className="text-base font-semibold"><span
@@ -110,7 +111,7 @@ function SeacrhBar() {
                 <div className="flex px-2 pt-6 transition-all duration-200 ease-in-out hover:bg-zinc-800">
                     <div className="w-56">
                         <div className="inline-block w-12 h-12 rounded-full">
-                            <img src="twitter-clone-pics\elon-musk.jpg" alt="" className="rounded-full"></img>
+                            <img src="https://pbs.twimg.com/profile_images/1815749056821346304/jS8I28PL_400x400.jpg" alt="" className="rounded-full"></img>
                         </div>
                         <div className="relative hidden px-2 -top-1 lg:inline-block">
                             <span className="text-base font-semibold"><span className="cursor-pointer hover:underline">Elon
@@ -127,7 +128,7 @@ function SeacrhBar() {
                 <div className="flex px-2 pt-6 transition-all duration-200 ease-in-out hover:bg-zinc-800">
                     <div className="w-56">
                         <div className="inline-block w-12 h-12 rounded-full">
-                            <img src="twitter-clone-pics\Narendra-modi.jpg" alt="" className="rounded-full"></img>
+                            <img src="https://etimg.etb2bimg.com/photo/104056978.cms" alt="" className="rounded-full"></img>
                         </div>
                         <div className="relative hidden px-2 -top-1 lg:inline-block">
                             <span className="text-base font-semibold"><span className="cursor-pointer hover:underline">Narendra
@@ -143,7 +144,7 @@ function SeacrhBar() {
                 <div className="flex px-2 pt-6 transition-all duration-200 ease-in-out hover:bg-zinc-800">
                     <div className="w-56">
                         <div className="inline-block w-12 h-12 rounded-full">
-                            <img src="twitter-clone-pics\salman-khan.jpg" alt="" className="rounded-full"></img>
+                            <img src="https://pbs.twimg.com/profile_images/1562753790369218560/wtiHWrkG_400x400.jpg" alt="" className="rounded-full"></img>
                         </div>
                         <div className="relative hidden px-2 -top-1 lg:inline-block">
                             <span className="text-base font-semibold"><span className="cursor-pointer hover:underline">Salman
