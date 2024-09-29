@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
+import ForYou from './ForYou';
 
 function Main() {
 
@@ -19,7 +20,7 @@ function Main() {
                         className={`px-1 py-3 rounded-sm border-sky-500 ${active === "Following"? "border-b-4 font-bold":""}`} onClick={()=>setActive("Following")}>Following</a>
                 </div>
             </div>
-            <div className="main h-screen">
+            <div className="main h-auto">
                 <div className=" px-3 border-b-2 border-zinc-600 py-2">
                     <div className="inline-block relative top-0 h-24">
                         <img src="https://pbs.twimg.com/profile_images/1663008095105323008/p2C3AkXy_400x400.jpg" alt="hii" className="rounded-full  size-11 relative top-0"></img>
@@ -45,9 +46,7 @@ function Main() {
                 </div>
 
             </div>
-            <div>
-                
-            </div>
+            <ForYou />
 
         </div>
     </>

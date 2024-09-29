@@ -6,13 +6,11 @@ import Main from './components/Main';
 
 function App() {
   return (
-    <>
 <div className="flex justify-center w-screen h-screen text-white bg-black">
         <Navbar/>
         <Main />
         <SeacrhBar />
     </div>
-    </>
   );
 }
 

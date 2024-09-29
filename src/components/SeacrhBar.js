@@ -128,7 +128,7 @@ function SeacrhBar() {
                 <div className="flex px-2 pt-6 transition-all duration-200 ease-in-out hover:bg-zinc-800">
                     <div className="w-56">
                         <div className="inline-block w-12 h-12 rounded-full">
-                            <img src="https://etimg.etb2bimg.com/photo/104056978.cms" alt="" className="rounded-full"></img>
+                            <img src="https://etimg.etb2bimg.com/photo/104056978.cmshttps://images.hindustantimes.com/tech/img/2021/10/22/960x540/f7569ca6-32a3-11ec-a581-90b85644888b_1634879649792_1634879664519.jpg" alt="" className="rounded-full"></img>
                         </div>
                         <div className="relative hidden px-2 -top-1 lg:inline-block">
                             <span className="text-base font-semibold"><span className="cursor-pointer hover:underline">Narendra
