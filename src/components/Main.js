@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
 import ForYou from './ForYou';
+import Following from './Following';
 
 function Main() {
 
@@ -46,7 +47,7 @@ function Main() {
                 </div>
 
             </div>
-            <ForYou />
+            {(active === "For You")? <ForYou />:<Following />}
 
         </div>
     </>
