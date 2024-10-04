@@ -18,7 +18,7 @@ function SeacrhBar() {
                     Subscribe To Premium
                 </div>
                 <div>
-                    Subscribe to be a Slave of the Legend himself Dipanshu.
+                    Subscribe to explore new features and benefits as a premium user.
                 </div>
                 <div className="py-2 text-center lg:text-left">
                     <button
@@ -51,10 +51,10 @@ function SeacrhBar() {
                     <span className="relative -right-36"><i className="fa-solid fa-ellipsis"></i></span>
 
                     <div className="font-semibold">
-                        #RomanVsRhodes
+                        #ViratKohli
                     </div>
                     <div className="text-sm text-zinc-500">
-                        69.6K posts
+                        67.9K posts
                     </div>
                 </div>
                 <div className="w-full h-auto px-4 py-2 transition-all duration-200 ease-in-out hover:bg-zinc-800">
@@ -64,7 +64,7 @@ function SeacrhBar() {
                     <span className="relative -right-44"><i className="fa-solid fa-ellipsis"></i></span>
 
                     <div className="font-semibold">
-                        #NiggerOnSale
+                        #SummerOlympics2024
                     </div>
                     <div className="text-sm text-zinc-500">
                         1.2M posts
@@ -77,7 +77,7 @@ function SeacrhBar() {
                     <span className="relative text-white left-60"><i className="fa-solid fa-ellipsis"></i></span>
 
                     <div className="font-semibold">
-                        #LailaMaiLaila
+                        #TheBYTEclub
                     </div>
                     <div className="text-sm text-zinc-500">
                         4,394 posts
